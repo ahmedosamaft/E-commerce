@@ -1,0 +1,30 @@
+.list-group {
+  /* width: fit-content; */
+  margin: auto;
+  /* position: relative; */
+  display: flex;
+  flex-flow: row !important;
+  /* top: 20%; */
+  /* left: 0; */
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-group-item {
+  border-top: 2px solid #eee !important;
+  border-bottom: 2px solid #eee !important;
+}
+
+@media (max-width: 768px) {
+  .list-group {
+    flex-flow: column !important;
+    width: 100%;
+  }
+  .filter {
+    margin-bottom: 20px;
+  }
+}

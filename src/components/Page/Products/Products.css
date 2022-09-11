@@ -1,0 +1,11 @@
+.zGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .zCard {
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+}

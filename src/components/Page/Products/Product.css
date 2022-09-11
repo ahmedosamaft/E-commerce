@@ -1,0 +1,66 @@
+.zCard img {
+  height: 100%;
+}
+
+.zCard {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  overflow: hidden;
+}
+.zCard:hover {
+  background-color: #eee;
+}
+
+@media (max-height: 768px) {
+  .zCard img {
+    height: 100%;
+  }
+}
+
+.wrapper {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.wrapper p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.card-title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.img-holder {
+  width: 100%;
+  border: 2px solid #eee;
+  background-color: white;
+  height: 300px;
+}
+
+.zCard:hover .img-holder {
+  transition:0.5s;
+  transform: rotate(1deg) scale(1.1);
+  -webkit-transform: rotate(1deg) scale(1.1);
+  -moz-transform: rotate(1deg) scale(1.1);
+  -ms-transform: rotate(1deg) scale(1.1);
+  -o-transform: rotate(1deg) scale(1.1);
+  -webkit-transition:0.5s;
+  -moz-transition:0.5s;
+  -ms-transition:0.5s;
+  -o-transition:0.5s;
+}
+
+.img-cont{
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
