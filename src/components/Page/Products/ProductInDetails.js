@@ -5,7 +5,7 @@ export default function ProductInDetails(props) {
   let data = props.data
   return (
     <div className='container'>
-      <h4 className='d-titletext-dark'>{data.title}</h4>
+      <h4 className='d-title text-dark'>{data.title}</h4>
       <div className="d-img" style={{backgroundImage: `url(${data.image})`, backgroundPosition: "50%", backgroundSize: "contain", backgroundRepeat: "no-repeat"}}></div>
       <p className='d-des text-dark'>{data.description}</p>
       <div className='priceCont'>
