@@ -47,7 +47,7 @@ function ProductsList() {
           <span className="visually-hidden">Loading...</span>
         </div>
       )}
-      <h2 className="text-center p-3">Our ProductsList</h2>
+      <h2 className="text-center p-3 text-dark">Our ProductsList</h2>
       <div className="filter">
         <ul className="list-group">
           <button

@@ -17,11 +17,11 @@ export default function Product(props) {
         ></div>
       </div>
       <div className="card-body">
-        <h5 className="card-title">{data.title}</h5>
+        <h5 className="card-title text-dark">{data.title}</h5>
         <div className="wrapper">
-          <p className="card-text">{data.description}</p>
+          <p className="card-text text-dark">{data.description}</p>
         </div>
-        <div className="price mb-3">${data.price}</div>
+        <div className="price mb-3 text-dark">${data.price}</div>
         <Link to={`/products/${data.id}`} className="btn btn-danger">
           See Details
         </Link>

@@ -1,11 +1,10 @@
 .list-group {
-  /* width: fit-content; */
+
   margin: auto;
-  /* position: relative; */
+
   display: flex;
   flex-flow: row !important;
-  /* top: 20%; */
-  /* left: 0; */
+
 }
 
 .filter {
