@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "27c01347c3e53590d16d",
+    "revision": "37f20e1f90f17b7a5d77",
     "url": "/E-commerce/static/css/main.cf502af1.chunk.css"
   },
   {
-    "revision": "27c01347c3e53590d16d",
-    "url": "/E-commerce/static/js/main.27c01347.chunk.js"
+    "revision": "37f20e1f90f17b7a5d77",
+    "url": "/E-commerce/static/js/main.37f20e1f.chunk.js"
   },
   {
     "revision": "795ef40dc50792254af0",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/E-commerce/static/js/runtime~main.21fb6efb.js"
   },
   {
-    "revision": "5ed4daa2fbd92dc7999d6f56a424c903",
+    "revision": "ba66f08609e768ef160afd5fe7ba2f26",
     "url": "/E-commerce/index.html"
   }
 ];
